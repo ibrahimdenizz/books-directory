@@ -13,6 +13,4 @@ App made for pracrice and learning CRUD, Authentication, Test and Rest API.<br>
     6. Run with npm start
 </pre>
 ## Test
- <pre>
- npm test
- </pre>
+ <pre>npm test</pre>
