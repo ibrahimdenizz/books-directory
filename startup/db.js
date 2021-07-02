@@ -14,6 +14,6 @@ module.exports = function () {
       retryWrites: false,
     })
     .then(() => {
-      logger.info("Connected to databese");
+      logger.info("Connected to database");
     });
 };

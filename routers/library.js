@@ -20,7 +20,7 @@ router.get("/:id", validateObjectId, async (req, res) => {
   if (!book)
     return res
       .status(404)
-      .send({ message: "No boook with given id was not found" });
+      .send({ message: "No book with given id was not found" });
   try {
     res.status(200).send(book);
   } catch (error) {

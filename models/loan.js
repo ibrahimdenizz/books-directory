@@ -32,14 +32,14 @@ const loanSchema = new mongoose.Schema({
     type: new mongoose.Schema({
       name: {
         type: String,
-        minlength: 3,
-        maxlength: 255,
+        minLength: 3,
+        maxLength: 255,
         required: true,
       },
       author: {
         type: String,
-        min: 5,
-        max: 55,
+        minLength: 5,
+        maxLength: 55,
         required: true,
       },
     }),
